@@ -1,0 +1,20 @@
+# MariaDB Trouble Shooting Commands 
+
+# Stage 1 :- Try to start MariaDB
+sudo systemctl start mariadb 
+
+# Stage 2 :- Check status of MariaDB 
+sudo systemctl stauts mariadb -l 
+
+# Stage 3 :- Check logs for why it is failing to start the service 
+sudo tail -n 50 /var/log/mariadb/mariadb.log
+
+# Stage 4 :- My fix was about mariadb not getting permissions 
+sudo chown -R mysql:mysql /var/lib/mysql
+
+sudo chmod -R 755 /var/lib/mysql
+
+# Stage 5 :- Restart MariaDB
+sudo systemctl reset-failed mariadb
+sudo systemctl start mariadb
+sudo systemctl status mariadb
