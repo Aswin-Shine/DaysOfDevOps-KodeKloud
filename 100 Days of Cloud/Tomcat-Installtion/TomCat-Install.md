@@ -3,7 +3,7 @@ After an internal team meeting, they have decided to use the tomcat application 
 
 ```
 a. Install tomcat server on App Server 1.
-b. Configure it to run on port 3004.
+b. Configure it to run on port 6000.
 c. There is a ROOT.war file on Jump host at location /tmp.
 ```
 
