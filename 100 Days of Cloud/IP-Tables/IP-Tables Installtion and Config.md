@@ -31,6 +31,13 @@ scp -r home/tony/iptablesConfig.sh steve@stapp02:/home/steve
 
 ```
 
+To execute shell script
+
+```
+./iptablesConfig.sh
+
+```
+
 Check from stlb01 if you able to connect:
 
 ```
