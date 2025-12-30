@@ -11,6 +11,7 @@ cd /usr/src/kodekloudrepos/news
 git branch -a
 git checkout -b nautilus
 cp /tmp/index.html ./
+git status
 git add .
 git commit -m "adding index.html"
 git push origin nautilus
