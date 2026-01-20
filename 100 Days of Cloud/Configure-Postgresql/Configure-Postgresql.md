@@ -6,8 +6,6 @@ PostgreSQL database server is already installed on the Nautilus database server.
 a. Create a database user kodekloud_rin and set its password to ksH85UJjhb.
 b. Create a database kodekloud_db5 and grant full permissions to user kodekloud_rin on this database.
 
-Note: Please do not try to restart PostgreSQL server service.
-
 Solution:
 
 ```
