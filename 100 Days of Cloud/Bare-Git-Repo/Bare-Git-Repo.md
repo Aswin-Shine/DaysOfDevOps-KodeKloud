@@ -3,6 +3,7 @@ The Nautilus development team shared with the DevOps team requirements for new a
 1. Install git package using yum on Storage server.
 
 2. After that create a bare git repository /opt/ecommerce.git (use the exact name as asked).
+   
 
 Solution:
 
