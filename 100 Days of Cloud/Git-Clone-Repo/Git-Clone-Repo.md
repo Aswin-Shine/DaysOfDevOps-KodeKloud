@@ -2,7 +2,7 @@ DevOps team created a new Git repository last week; however, as of now no team i
 
     The repo that needs to be cloned is /opt/ecommerce.git
 
-    Clone this git repository under /usr/src/kodekloudrepos directory. Please do not try to make any changes in repo.
+    Clone this git repository under /usr/src/kodekloudrepos directory.
 
 Solution:
 
