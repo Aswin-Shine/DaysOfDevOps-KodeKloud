@@ -2,15 +2,11 @@ Max want to push some new changes to one of the repositories but we don't want p
 
 SSH into storage server using user max, password Max_pass123 . There you can find an already cloned repo under Max user's home.
 
-
 Max has written his story about The 🦊 Fox and Grapes 🍇
-
 
 Max has already pushed his story to remote git repository hosted on Gitea branch story/fox-and-grapes
 
-
 Check the contents of the cloned repository. Confirm that you can see Sarah's story and history of commits by running git log and validate author info, commit message etc.
-
 
 Max has pushed his story, but his story is still not in the master branch. Let's create a Pull Request(PR) to merge Max's story/fox-and-grapes branch into the master branch
 
