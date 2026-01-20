@@ -8,6 +8,7 @@ c. There are two website's backups /home/thor/blog and /home/thor/games on jump_
 
 d. Once configured you should be able to access the website using curl command on the respective app server, i.e curl http://localhost:3000/blog/ and curl http://localhost:3000/games/
 
+
 Solution:
 
 ```
