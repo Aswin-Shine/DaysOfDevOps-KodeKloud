@@ -12,7 +12,7 @@ c. Make sure you do not update the apache port that is already defined in the ap
 
 d. Once done, you can access the website using StaticApp button on the top bar.
 
-Solution:
+Solution :
 
 ```
 ssh tony@stapp01
@@ -30,7 +30,7 @@ sudo systemctl status nginx
 sudo vi /etc/nginx/nginx.conf
 ```
 
-Add below:
+Add below :
 
 ```
 http {
