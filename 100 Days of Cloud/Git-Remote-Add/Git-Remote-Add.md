@@ -8,6 +8,7 @@ b. There is a file `/tmp/index.html` on same server; copy this file to the repo 
 
 c. Finally push `master` branch to this new remote origin.
 
+
 Solution:
 
 ```
