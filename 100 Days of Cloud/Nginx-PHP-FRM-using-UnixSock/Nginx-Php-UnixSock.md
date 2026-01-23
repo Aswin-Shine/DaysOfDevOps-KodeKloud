@@ -10,7 +10,7 @@ c. Configure php-fpm and nginx to work together.
 
 d. Once configured correctly, you can test the website using curl http://stapp01:8092/index.php command from jump host.
 
-Solution:
+Solution :
 
 1. SSH to the app server requested - it may be a different app server for you.
 
