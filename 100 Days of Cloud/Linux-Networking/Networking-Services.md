@@ -5,7 +5,7 @@ The service itself could be down, the firewall could be at fault, or something e
 Use tools like telnet, netstat, etc. to find and fix the issue. Also make sure Apache is reachable from the jump host without compromising any security settings.  
 Once fixed, you can test the same using command curl http://stapp01:8088 command from jump host.
 
-Solution:
+Solution :
 
 ```
 ssh tony@stapp01
