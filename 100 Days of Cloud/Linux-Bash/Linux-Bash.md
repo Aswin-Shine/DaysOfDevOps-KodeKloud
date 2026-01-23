@@ -11,7 +11,7 @@ c. Copy the created archive to Nautilus Backup Server server in /backup/ locatio
 
 d. Please make sure script won't ask for password while copying the archive file. Additionally, the respective server user (for example, tony in case of App Server 1) must be able to run it.
 
-Solution:
+Solution :
 
 ```
 ssh banner@stapp03
