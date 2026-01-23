@@ -9,7 +9,7 @@ c. There is a ROOT.war file on Jump host at location /tmp.
 
 Deploy it on this tomcat server and make sure the webpage works directly on base URL i.e `curl http://stapp01:3004`
 
-Solution:
+Solution :
 
 ```
 ssh tony@stapp01
@@ -17,7 +17,7 @@ sudo yum install -y tomcat tomcat-admin-webapps
 sudo vi /etc/tomcat/server.xml
 ```
 
-Change the following section:
+Change the following section :
 
 ```
 <Connector port="6000" protocol="HTTP/1.1"
