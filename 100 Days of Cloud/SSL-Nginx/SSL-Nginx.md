@@ -9,9 +9,9 @@ They have some pre-requites to get ready that server for application deployment.
 
 4. For final testing try to access the App Server 2 link (either hostname or IP) from jump host using curl command. For example curl -Ik https://stapp02
 
-Solution:
+Solution :
 
-```bash
+```
 ssh banner@stapp03
 sudo yum install nginx
 sudo mv /tmp/nautilus.crt /tmp/nautilus.key /etc/ssl/
@@ -19,7 +19,7 @@ sudo openssl dhparam -out /etc/ssl/dhparam.pem 2048
 sudo vi /etc/nginx/conf.d/ssl.conf
 ```
 
-Add this:
+Add this :
 
 ```
 server {
