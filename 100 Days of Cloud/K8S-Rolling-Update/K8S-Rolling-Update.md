@@ -27,5 +27,6 @@ kubectl edit deployment nginx-deployment
 4. Check the rollout status
 
 ```
-kubectl edit deployment nginx-deployment
+kubectl rollout status deployment/nginx-deployment
+kubectl get pods
 ```
