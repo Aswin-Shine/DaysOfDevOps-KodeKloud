@@ -32,18 +32,19 @@ ls -l ~/.ssh/
 
 ssh-copy-id peter@stdb01
 ssh-copy-id clint@stbkp01
+```
 
 3. Create a jenkins job named "install-java"
 
 4. Choose execute shell and this script
 
 ```
-
 ssh tony@stapp01 "echo 'Ir0nM@n' | sudo -S yum install java-21-openjdk -y"
 ssh steve@stapp02 "echo 'Am3ric@' | sudo -S yum install java-21-openjdk -y"
 ssh banner@stapp03 "echo 'BigGr33n' | sudo -S yum install java-21-openjdk -y"
 
 ```
+
 5. Build now
 
 6. Manage Jenkins and Install SSH plugins from plugins section
@@ -53,10 +54,9 @@ ssh banner@stapp03 "echo 'BigGr33n' | sudo -S yum install java-21-openjdk -y"
 8. Manage Jenkins then go to Nodes section
 
 9. Create node with name App_server_1 and add these specifications
-      -- In Labels section -------> App_server_1
-      -- In Usage section -------> Only build jobs with label expression matching this node.
-      -- In Launch Method section -------> Launch Agents via SSH ---------> Host [stapp01], Credentials [tony], Host key Verification Strategy [Manually Trusted Key Strategy]
-      -- In Remote root directory section -----> /home/tony/jenkins
+   -- In Labels section -------> App_server_1
+   -- In Usage section -------> Only build jobs with label expression matching this node.
+   -- In Launch Method section -------> Launch Agents via SSH ---------> Host [stapp01], Credentials [tony], Host key Verification Strategy [Manually Trusted Key Strategy]
+   -- In Remote root directory section -----> /home/tony/jenkins
 
 Repeat steps 7 to 9 for every App Server.
-```
