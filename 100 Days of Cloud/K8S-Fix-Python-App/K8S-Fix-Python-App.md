@@ -12,7 +12,7 @@ kubectl get pods
 kubectl get svc
 ```
 
-2. Edit the deployment file.
+2. Check and edit the deployment file.
 
 ```
 kubectl edit deployment python-deployment-xfusion
@@ -20,10 +20,11 @@ kubectl edit deployment python-deployment-xfusion
 * Change image name to poroko/flask-demo-app *
 ```
 
-3. Edit the service file.
+3. Check and edit the service file.
 
 ```
 kubectl get svc python-service-xfusion
+kubectl edit svc python-service-xfusion
 
 * Change targetPort number to 5000 *
 
