@@ -13,7 +13,7 @@ cd ansible
 ls
 
 vi inventory
-stapp03 ansible_host=stapp03 ansible_user=banner ansible_ssh_pass=' BigGr33n' ansible_ssh_co mmon_args='-o StrictHostKeyChecking=no'
+stapp03 ansible_host=stapp03 ansible_user=banner ansible_ssh_pass='BigGr33n' ansible_ssh_common_args='-o StrictHostKeyChecking=no'
 
 cat inventory
 ```
@@ -37,6 +37,7 @@ vi playbook.yaml
       path: /tmp/file.txt
       state: touch
 
+cat playbook.yml
 ```
 
 4. Apply the playbook.yml file
